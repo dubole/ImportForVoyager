@@ -1,0 +1,31 @@
+SAMPLE_ID=14D1172496
+#SAMPLE_GENDER=F
+TARGET_COORDINATE_FILE=/ifs4/HST_5B/PROJECT/SGD/Voyager/Interface/bin_from_zhangyong_vcf2cg/test/target.region.bed
+
+#Pipeline info
+SOFTWARE_VERSION=2.7
+PLATFORM=Illumina
+PLATFORM_VERSION=HiSeq2500
+GENOME_REFERENCE=NCBI build 37
+VARIANT_CALLING_MODULE=Nor
+#ANCESTRY_MODULE=ANCESTRY_MODULE_1
+#SAMPLE_QC_MODULE=SAMPLE_QC_MODULE_1
+
+#Alignment and variant results
+QC_REPORT=/ifs4/HST_5B/PROJECT/SGD/Voyager/Interface/bin_from_zhangyong_vcf2cg/test/test.pdf
+BAM_FILE=/ifs4/HST_5B/PROJECT/SGD/v13voa395_20140706JSZLSPEP00000096_L1_23/14D1172496/bwa/chr_all.sam.sort.bam
+VARIANT_SNP_OUTPUT=/ifs4/HST_5B/PROJECT/SGD/v13voa395_20140706JSZLSPEP00000096_L1_23/14D1172496/gatk.variation.vcf
+#VARIANT_INDEL_OUTPUT=
+#ANCESTRY_WORLD_LEVEL_OUTPUT=World.out
+#ANCESTRY_ASIA_LEVEL_OUTPUT=EastAsia.out
+#ANCESTRY_CHINA_LEVEL_OUTPUT=China.out
+#GENOTYPE_FILE_PATH=GATK_tj_SNP_INDEL.vcf.forTest
+
+#Running environment (executables, output folder, tmp folder) for development use only
+#SAMTOOLS_DEPTH_BIN=/ifs4/BC_CANCER/02usr/chenly/pipeline/bin/samtools
+#VCF2CG_SCRIPT_PATH=/ifs1/ST_IM/USER/zhuangxuehan/project/voyager/format_change_demo/gatk_vcf2cg_v0.4.pl
+
+#QC_SUMMARY_SCRIPT_PATH
+#GET_NOCALL_INFO_SCRIPT_PATH=/ifs1/ST_MED/USER/suzheng/task2/workplace/GenNoCallRefInfo/src/GetNoCallRefCoord.pl
+OUTPUT_DIR=/ifs4/HST_5B/PROJECT/SGD/Voyager/Interface/bin_from_zhangyong_vcf2cg/test
+TMP_DIR=/ifs4/HST_5B/PROJECT/SGD/Voyager/Interface/bin_from_zhangyong_vcf2cg/test

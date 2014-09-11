@@ -1,0 +1,7 @@
+1、liunx环境下运行命定  java -jar download_sims.jar 14B2014001,14B2014420-2
+
+2、window环境命令为 download_sims.jar 14B2014001,14B2014420-2
+
+3、样本编号需要用英文的逗号隔开
+
+4、生成的excel表格位于程序outExcel文件夹下
